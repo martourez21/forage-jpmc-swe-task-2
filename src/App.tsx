@@ -37,9 +37,6 @@ class App extends Component<{}, IState> {
     }
   }
 
-  /**
-   * Get new data from server and update the state with the new data
-   */
   getDataFromServer() {
     let x = 0;
     const interval = setInterval(() => {
